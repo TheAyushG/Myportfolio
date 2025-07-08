@@ -16,7 +16,7 @@ const Education = () => {
         </p>
       </div>
 
-      {/* Education Timeline */}
+      {/* Education Timeline */}z
       <div className="relative">
         {/* Vertical line */}
         <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
@@ -70,7 +70,7 @@ const Education = () => {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-400 font-bold">Grade: {edu.grade}</p>
+              <p className="mt-4 text-gray-400 font-bold">  {edu.grade}</p>
               <p className="mt-4 text-gray-400">{edu.desc}</p>
             </div>
           </div>

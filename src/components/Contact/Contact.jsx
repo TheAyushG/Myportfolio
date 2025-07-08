@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+ 
 
 const Contact = () => {
   const form = useRef();
@@ -12,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_utth2ks",  // Replace with your EmailJS Service ID
+        "template_6bkd31s",  // Replace with your EmailJS Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "2n9cv2OnN5JtYWCUK"  // Replace with your EmailJS Public Key
       )
       .then(
         () => {
@@ -70,6 +71,7 @@ const Contact = () => {
         </h3>
 
         <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
+
           <input
             type="email"
             name="user_email"

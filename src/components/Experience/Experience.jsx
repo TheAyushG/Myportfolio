@@ -12,12 +12,10 @@ const Experience = () => {
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A collection of my work experience and the roles I have taken in
-          various organizations
+          I have done my intership in react js
         </p>
       </div>
 
-      {/* Experience Timeline */}
       <div className="relative">
         {/* Vertical line */}
         <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
@@ -56,7 +54,7 @@ const Experience = () => {
                   />
                 </div>
 
-                {/* Role, Company Name, and Date */}
+                {/* Name and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-semibold text-white">
@@ -66,7 +64,7 @@ const Experience = () => {
                       {experience.company}
                     </h4>
                   </div>
-                  {/* Date at the bottom */}
+                  {/* Date */}
                   <p className="text-sm text-gray-500 mt-2">{experience.date}</p>
                 </div>
               </div>
