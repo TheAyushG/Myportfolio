@@ -53,7 +53,7 @@ import cmLogo from './assets/work_logo/cm.png'; //a
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';//g
 import emsLOGO from './assets/work_logo/EMSLOGO.png' //c
-import swiggyLOGO from './assets/work_logo/swiggyclone.png' //c
+import swiggyLOGO from './assets/work_logo/swiggyClone.png' //c
 import ExpenseTrackerLOGO from './assets/work_logo/Expense Tracker1.png'
 import todoLOGO from './assets/work_logo/todo.png'
 
