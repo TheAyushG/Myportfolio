@@ -199,7 +199,7 @@ export const SkillsInfo = [
       image: ExpenseTrackerLOGO,
       tags: [ "React JS", "styled compenent"],
       github: "https://github.com/TheAyushG/Expense-Tracker",
-      webapp: "https://expense-tracker-23ad8el9x-ayushs-projects-f6d37654.vercel.app/",
+      webapp: "https://expense-tracker-eosin-pi.vercel.app/",
     },
 
     {
@@ -210,18 +210,7 @@ export const SkillsInfo = [
       image: emsLOGO,
       tags: [ "React JS", "API"],
       github: "https://github.com/TheAyushG/ems_project",
-      webapp: "https://ems-project-e4endhkom-ayushs-projects-f6d37654.vercel.app/",
-    },
-    
-    {
-      id: 3,
-      title: "Swiggy Clone",
-      description:
-        "This is a Swiggy Clone built using React.js for the frontend. It replicates the user interface and user experience of the popular food delivery platform Swiggy. The goal of this project is to demonstrate frontend development skills by building a responsive, component-driven application that mimics a real-world food delivery app.",
-      image: swiggyLOGO,
-      tags: ["React JS", "Tailwind CSS"],
-      github: "https://github.com/TheAyushG/swiggy_clone",
-      webapp: "https://swiggy-clone-git-ayush-ayushs-projects-f6d37654.vercel.app/",
+      webapp: "ems-project-two.vercel.app",
     },
     
   ];
