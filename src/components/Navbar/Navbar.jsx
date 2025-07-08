@@ -42,7 +42,7 @@ const Navbar = () => {
         isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="text-white py-5 flex justify-between items-center">
+      <div className="text-[#8245ec] py-5 flex justify-between items-center"> {/* text-white */}
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
@@ -53,11 +53,11 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}  
-        <ul className="hidden md:flex text-gray-300">   {/* space-x-8 */}
+        <ul className="hidden md:flex space-x-8 text-[#8245ec]">   {/*  */}
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
+              className={`cursor-pointer hover:text-white ${
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
